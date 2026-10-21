@@ -12,11 +12,9 @@ from risk_engine import (
     product_summary, size_hedge, spec_for, stress_grid, unit_equivalents)
 
 st.set_page_config(page_title='Grains & Oilseeds Risk Workbench', layout='wide')
-st.title('Grains & Oilseeds Risk Workbench')
+st.title('Grains & Oilseeds Risk Management Tool')
 st.caption('Pre-trade option analytics • hedge sizing • trade ledger • portfolio Greeks • scenario risk')
-st.warning('Designed for European options on futures using Black-76 (the Black-Scholes-Merton model for futures). '
-           'Validate exchange contract specifications, quote units, exercise style and settlement terms before '
-           'production use. This is decision support, not an automated trade approval system.')
+
 
 # Illustrative placeholder prices in each contract's quote units: overwrite with live quotes.
 DEFAULT_PRICES = {'Corn': 450.0, 'Chicago SRW Wheat': 550.0, 'KC HRW Wheat': 560.0,
