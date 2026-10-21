@@ -13,7 +13,7 @@ from risk_engine import (
 
 st.set_page_config(page_title='Grains & Oilseeds Risk Workbench', layout='wide')
 st.title('Grains & Oilseeds Risk Management Tool')
-st.caption('Pre-trade option analytics • hedge sizing • trade ledger • portfolio Greeks • scenario risk')
+st.caption('Pre-trade option analytics • hedge sizing • trade ledger • portfolio Greeks • scenario risk • Created by Gerardo Ferreira')
 
 
 # Illustrative placeholder prices in each contract's quote units: overwrite with live quotes.
